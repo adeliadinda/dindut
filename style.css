@@ -1,0 +1,240 @@
+body{
+    font-family:'Lato', sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding: 0%;
+    margin: 0%;
+    overflow-x:hidden;
+    gap: 150px;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    background-image: url(Frame\ 1.png);
+    padding-left: 80px;
+    padding-right: 80px;
+    height: 500px;
+    width: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgba(89, 93, 102, 0.5);
+    width: auto;
+    height: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    gap: 10px;
+    border-radius: 100px;
+    margin-top: 10px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 40px;
+    height: 40px;
+}
+.tengah{
+    display: flex;
+    justify-content: space-around;
+}
+.tengah a{
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    margin: 15px;
+}
+.kanan{
+    display: flex;
+    align-items: center;
+}
+.butt1{
+    background-color: rgba(30,30,30,0.75);
+    color: white;
+    padding: 10px 25px;
+    border-radius: 100px;
+    text-decoration: none;
+}
+.des1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50PX;
+    padding-bottom: 50px;
+}
+.des1 h1{
+    color: white;
+    margin: 10px;
+}
+.des1 p{
+    color: white;
+    margin: 10px;
+    font-weight: 300;
+}
+.butt2{
+    background-color: rgba(89, 93, 102, 0.7);
+    color: white;
+    padding: 10px 25px;
+    border-radius: 100px;
+    text-decoration: none;
+}
+.boddy{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    gap: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+    background-color: #D7D7D6;
+}
+.judul{
+    display: flex;
+    height: 70px;
+    justify-content: flex-start;
+    padding-top: 20px;
+}
+.judul h1{
+    color: black;
+    font-weight: 900;
+}
+.display{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.dis1{
+    display: flex;
+    flex-direction: row;
+    background-color: #B7B8BB;
+    padding: 10px;
+    border-radius: 13px;
+}
+.des2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.des2 h3{
+    margin: 0;
+}
+.des2 p{
+    font-weight: 400;
+}
+.mobil{
+    display: flex;
+    align-items: center;
+}
+.mobil img{
+    width: 500px;
+    height: auto;
+    border-radius: 13px;
+}
+.dis2{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    border-radius: 13px;
+}
+.other{
+    display: flex;
+    height: auto;
+    justify-content: flex-end;
+    padding-bottom: 30px;
+}
+.butt3{
+    background-color: #595D66;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 13px;
+    text-decoration: none;
+}
+.foother{
+    display: flex;
+    flex-direction: row;
+    background-color: #272B36;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.ki{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 100%;
+}
+.loggo2{
+    display: flex;
+    align-items: center;
+}
+.loggo2 img{
+    width: 80px;
+    height: 80px;
+}
+.ki p{
+    color: white;
+    font-weight: 300;
+}
+.sosmed a{
+    color: white;
+    margin: 5px;
+}
+.ka{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+    width: 100%;
+    gap: 30px;
+    padding-right: 80px;
+}
+.first{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.first h4{
+    color: white;
+    margin: 0;
+}
+.first p{
+    color: white;
+    padding: 0;
+    margin: 0;
+    font-weight: 300;
+}
+.second{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.second h4{
+    color: white;
+    margin: 0;  
+}
+.sec{
+    color: white;
+    padding: 0;
+    margin: 0;
+    font-weight: 300;
+}
+.sec a{
+    color: white;
+    margin: 5px;
+    text-decoration: none;
+}
