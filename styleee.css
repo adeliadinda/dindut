@@ -1,0 +1,115 @@
+body{
+    font-family:'Lato', sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding: 0%;
+    margin: 0%;
+    overflow-x:hidden;
+    gap: 150px;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    background-image: url(Frame\ 3.png);
+    padding-left: 80px;
+    padding-right: 80px;
+    height: 500px;
+    width: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(39, 43, 54, 0.5);
+    width: auto;
+    height: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    gap: 10px;
+    border-radius: 100px;
+    margin-top: 10px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 40px;
+    height: 40px;
+}
+.tengah{
+    display: flex;
+    justify-content: space-around;
+}
+.tengah a{
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    margin: 15px;
+}
+.kanan{
+    display: flex;
+    align-items: center;
+}
+.butt1{
+    background-color: rgba(30,30,30,0.75);
+    color: white;
+    padding: 10px 25px;
+    border-radius: 100px;
+    text-decoration: none;
+}
+.des1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.des1 h1{
+    font-size: 120px;
+    font-weight: bolder;
+    color: white;
+    margin: 10px;
+    mix-blend-mode: difference;
+}
+.des1 p{
+    color: white;
+    margin: 10px;
+    font-weight: 300;
+}
+.boddy{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    background-color: rgb(39, 43, 54);
+}
+.abo{
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+}
+.abo h1{
+    margin: 0;
+    color: white;
+    font-weight: 900;
+}
+.abo p{
+    margin: 0;
+    color: white;
+    font-weight: 300;
+    font-size: 15px;
+    padding-top: 5px;
+}
+.abo1{
+    display: flex;
+    flex-direction: row;
+    margin: 40px;
+    gap: 25px;
+}
